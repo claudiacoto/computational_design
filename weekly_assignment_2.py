@@ -1,4 +1,3 @@
-
 """
 Imagine you are developing an interactive python program for managing the students of your class.
 Your task is to create a Python program that interacts with the user to collect and analyze data.
@@ -31,44 +30,44 @@ Upload on ILIAS
 
 #1 dictionary with 10 ITECH students
 student_data = {}
-student_data["Carla"] = {"age": 26, "country": "Spain"}
-student_data["Lucas"] = {"age": 24, "country": "Germany"}
-student_data["Liu"] = {"age": 27, "country": "China"}
-student_data["Omar"] = {"age": 29, "country": "Egypt"}
-student_data["Sofia"] = {"age": 25, "country": "Italy"}
-student_data["Diego"] = {"age": 28, "country": "Mexico"}
-student_data["Anita"] = {"age": 26, "country": "India"}
-student_data["Jonas"] = {"age": 31, "country": "Germany"}
-student_data["Lucia"] = {"age": 23, "country": "Spain"}
-student_data["Ema"] = {"age": 30, "country": "Japan"}
+student_data["Lamita"] = {"age": 22, "country": "Canada"}
+student_data["Danann"] = {"age": 26, "country": "Mexico"}
+student_data["Zeina"] = {"age": 27, "country": "Syria"}
+student_data["Seongmin"] = {"age": 26, "country": "South Korea"}
+student_data["Bokeikhan"] = {"age": 27, "country": "Kazakhstan"}
+student_data["Narah"] = {"age": 23, "country": "USA"}
+student_data["Luis"] = {"age": 24, "country": "Germany"}
+student_data["Jerry"] = {"age": 26, "country": "Taiwan"}
+student_data["Ravi"] = {"age": 27, "country": "Germany"}
+student_data["Parnia"] = {"age": 23, "country": "Iran"}
 print(student_data)
 
 # (3) List of ages, written manually from the dictionary
 ages = [
-    student_data["Carla"]["age"],
-    student_data["Lucas"]["age"],
-    student_data["Liu"]["age"],
-    student_data["Omar"]["age"],
-    student_data["Sofia"]["age"],
-    student_data["Diego"]["age"],
-    student_data["Anita"]["age"],
-    student_data["Jonas"]["age"],
-    student_data["Lucia"]["age"],
-    student_data["Ema"]["age"],
+    student_data["Lamita"]["age"],
+    student_data["Danann"]["age"],
+    student_data["Zeina"]["age"],
+    student_data["Seongmin"]["age"],
+    student_data["Bokeikhan"]["age"],
+    student_data["Narah"]["age"],
+    student_data["Luis"]["age"],
+    student_data["Jerry"]["age"],
+    student_data["Ravi"]["age"],
+    student_data["Parnia"]["age"],
 ]
 
 # (4.) Set of unique countries
 students_countries = {
-    student_data["Carla"]["country"],
-    student_data["Lucas"]["country"],
-    student_data["Liu"]["country"],
-    student_data["Omar"]["country"],
-    student_data["Sofia"]["country"],
-    student_data["Diego"]["country"],
-    student_data["Anita"]["country"],
-    student_data["Jonas"]["country"],
-    student_data["Lucia"]["country"],
-    student_data["Ema"]["country"],
+    student_data["Lamita"]["country"],
+    student_data["Danann"]["country"],
+    student_data["Zeina"]["country"],
+    student_data["Seongmin"]["country"],
+    student_data["Bokeikhan"]["country"],
+    student_data["Narah"]["country"],
+    student_data["Luis"]["country"],
+    student_data["Jerry"]["country"],
+    student_data["Ravi"]["country"],
+    student_data["Parnia"]["country"],
 }
 
 
@@ -106,26 +105,26 @@ young_students = []
 """
 without loop
 
-if student_data["Carla"]["age"] < average_age:
-    young_students.append("Carla")
-if student_data["Lucas"]["age"] < average_age:
-    young_students.append("Lucas")
-if student_data["Liu"]["age"] < average_age:
-    young_students.append("Liu")
-if student_data["Omar"]["age"] < average_age:
-    young_students.append("Omar")
-if student_data["Sofia"]["age"] < average_age:
-    young_students.append("Sofia")
-if student_data["Diego"]["age"] < average_age:
-    young_students.append("Diego")
-if student_data["Anita"]["age"] < average_age:
-    young_students.append("Anita")
-if student_data["Jonas"]["age"] < average_age:
-    young_students.append("Jonas")
-if student_data["Lucia"]["age"] < average_age:
-    young_students.append("Lucia")
-if student_data["Ema"]["age"] < average_age:
-    young_students.append("Ema")
+if student_data["Lamita"]["age"] < average_age:
+    young_students.append("Lamita")
+if student_data["Danann"]["age"] < average_age:
+    young_students.append("Danann")
+if student_data["Zeina"]["age"] < average_age:
+    young_students.append("Zeina")
+if student_data["Seongmin"]["age"] < average_age:
+    young_students.append("Seongmin")
+if student_data["Bokeikhan"]["age"] < average_age:
+    young_students.append("Bokeikhan")
+if student_data["Narah"]["age"] < average_age:
+    young_students.append("Narah")
+if student_data["Luis"]["age"] < average_age:
+    young_students.append("Luis")
+if student_data["Jerry"]["age"] < average_age:
+    young_students.append("Jerry")
+if student_data["Ravi"]["age"] < average_age:
+    young_students.append("Ravi")
+if student_data["Parnia"]["age"] < average_age:
+    young_students.append("Parnia")
 
 #new students only count if they were not skipped
 if name1 != "" and age1 < average_age:
@@ -164,5 +163,4 @@ Questionnaire: For what purposes did you use Generative AI / LLMs when completin
 [] Writing or completing code
 [] Other (please specify): _____________
 
-"""  
-
+"""
